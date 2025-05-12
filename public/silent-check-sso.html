@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script>
+      // Envía un mensaje al origen principal (la página) con la URL actual
+      parent.postMessage(location.href, location.origin);
+    </script>
+  </body>
+</html>
